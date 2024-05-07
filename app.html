@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/app/app.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="weather">
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+ 
+  <!-- 시계 -->
+  <h1 id="clock"></h1>
+      
+  <!-- 로그인 -->
+  <div id="loginForm" class="hidden">
+      <input type="text" name=""  class="loginInput" placeholder="What is your name?">
+      <button class="loginBtn">로그인</button>
+  </div>
+  <h2 class="greeting hidden"></h2>
+
+
+
+
+  <form id="todoListForm">
+      <h3>What is your main focus for today?</h3>
+      <input type="text" class="todoListInput" required>  <!--required는 필수로 입력해야할때 쓴다.-->
+      
+  </form>
+
+  <ul id="todoList">
+
+  </ul>
+
+
+    
+    
+
+
+
+    
+    <script src="/app/login.js"></script>
+    <script src="/app/clock.js"></script>
+    <script src="/app/todo.js"></script>
+    <script src="/app/weather.js"></script>
+    <script src="/app/background.js"></script>
+
+
+</body>
+</html>

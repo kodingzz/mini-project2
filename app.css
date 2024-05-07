@@ -1,0 +1,88 @@
+
+*{
+    margin:0;
+}
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10rem;
+   background-image: url('/img/img1.jpg');
+   background-repeat: no-repeat;
+   background-size:cover;
+   height: 300px;
+   color: white;
+}
+.hidden{
+    display: none;
+}
+#clock{
+   
+
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.loginInput{
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem 1rem;
+}
+
+.loginBtn{
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+    background-color: burlywood;
+    border: 1px solid gold;
+    cursor: pointer;
+}
+h2{
+    margin-top: 0;
+}
+.todoListForm{
+}
+.todoListInput{
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.5rem; 
+    border: none;
+    outline: none;
+    
+}
+ul{
+    padding : 0;
+    width: 317px;
+    max-width: 100%;
+   
+
+}
+li{
+    width: 100%v;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+
+}
+li button {
+    padding: 0.3rem 0.8rem;
+    background-color: black;
+    color:white;
+}
+
+#todoList li.complete{
+
+    text-decoration: line-through;
+}
+
+#weather{
+    display: block;
+    font-size: 1.5rem;
+    
+}
+h2{
+    margin-bottom: 2rem;
+}
